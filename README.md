@@ -1,7 +1,11 @@
 # nuscenes_rosbag
 
-This repository can make rosbag for nuScenes dataset.
-It can be used for ROS1 and ROS2
+This repository provides scripts to create Rosbags from the nuScenes dataset.
+It enables easy integration of the nuScenes dataset with ROS or ROS2, allowing you to use ML models trained on nuScenes data.
+
+The `nuscenes_rosbag` is based on [nuscenes2bag](https://github.com/foxglove/nuscenes2bag), with additional features added.
+It provides a Docker environment, helping you keep your system environment clean.
+It supports both ROS1 and ROS2.
 
 ## Get started
 
